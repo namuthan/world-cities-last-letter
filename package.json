@@ -1,0 +1,11 @@
+{
+  "name": "world-cities-last-letter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Regina Baher <reginabaher@gmail.com>",
+  "license": "ISC"
+}
