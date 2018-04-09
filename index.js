@@ -8,10 +8,15 @@ mongoose.connect(url, {})
 mongoose.Promise = global.Promise
 
 exports.cities = function (query) {
-
     return new Promise(function (resolve, reject) {
-        return City
-            .find({ city: query.toLowerCase() })
+        City
+            .find({ city: query })
             .exec()
+            .then(docs => {
+                resolve(docs)
+            })
+            .catch(err => {
+                reject(err)
+            })
     });
 }
