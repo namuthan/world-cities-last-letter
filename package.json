@@ -1,6 +1,6 @@
 {
   "name": "world-cities-last-letter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Regina Baher <reginabaher@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "mongoose": "^5.0.14"
   }
 }
