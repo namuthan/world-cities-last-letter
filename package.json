@@ -11,7 +11,15 @@
     "url": "https://github.com/namuthan/world-cities-last-letter"
   },
   "keywords": [
-    "world cities"
+    "world cities",
+    "city",
+    "cities",
+    "geolocation",
+    "latitude",
+    "longitude",
+    "gisworld",
+    "geography",
+    "location"
   ],
   "author": "Regina Baher <reginabaher@gmail.com>",
   "license": "ISC",
